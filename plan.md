@@ -11,11 +11,11 @@ Structured, sequential checklist to turn this repo into a fully functional DAO w
   - Output: Short inventory of contracts and addresses (simnet/devnet/testnet/mainnet) in `docs/state.md`.
 
 ## Phase 1 — Governance Design Decisions
-- [ ] Choose voting power source  
+- [x] Choose voting power source  
   - Options: (a) governance FT (SIP-010) balances, (b) staked/locked balances, (c) 1p1v (current).  
   - Decide on delegation support and snapshot timing (block height at proposal start).  
   - Output: Decision note in `docs/governance-design.md` with parameters (quorum %, threshold %, voting period, timelock, delegation yes/no).
-- [ ] Define action surface  
+- [x] Define action surface  
   - Decide allowed actions: STX transfer, FT transfer, optional adapter registry for future actions.  
   - Output: Allowed payload schema and adapter list in `docs/governance-design.md`.
 
